@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos para Estudiantes de Enfermería</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #343a40;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #495057;
+        }
+        .container {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recursos para Estudiantes de Enfermería</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#consejos">Consejos de Estudio</a>
+        <a href="#oportunidades">Oportunidades Laborales</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a este sitio dedicado a proporcionar recursos útiles para estudiantes de enfermería. Aquí encontrarás información valiosa para ayudarte en tu carrera académica y profesional.</p>
+        </section>
+        <section id="recursos">
+            <h2>Recursos</h2>
+            <p>En esta sección encontrarás enlaces a libros, artículos, y otros materiales que te serán útiles en tus estudios de enfermería.</p>
+            <ul>
+                <li><a href="https://www.who.int/es" target="_blank">Organización Mundial de la Salud (OMS)</a></li>
+                <li><a href="https://www.nursingworld.org/" target="_blank">American Nurses Association (ANA)</a></li>
+                <li><a href="https://www.ncbi.nlm.nih.gov/pmc/" target="_blank">PubMed Central</a></li>
+            </ul>
+        </section>
+        <section id="consejos">
+            <h2>Consejos de Estudio</h2>
+            <p>Aquí tienes algunas técnicas y estrategias que pueden ayudarte a mejorar tu rendimiento académico:</p>
+            <ul>
+                <li>Organiza tu tiempo y crea un horario de estudio.</li>
+                <li>Utiliza técnicas de estudio activo como resúmenes y mapas mentales.</li>
+                <li>Participa en grupos de estudio para discutir y repasar el material.</li>
+            </ul>
+        </section>
+        <section id="oportunidades">
+            <h2>Oportunidades Laborales</h2>
+            <p>Información sobre empleos y prácticas profesionales:</p>
+            <ul>
+                <li><a href="https://www.healthcareers.nhs.uk/" target="_blank">NHS Careers</a></li>
+                <li><a href="https://www.indeed.com/q-Nurse-jobs.html" target="_blank">Indeed - Nurse Jobs</a></li>
+                <li><a href="https://www.nurse.com/jobs/" target="_blank">Nurse.com Jobs</a></li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes preguntas o sugerencias, no dudes en ponerte en contacto:</p>
+            <p>Email: <a href="mailto:alex@example.com">alex@example.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Recursos para Estudiantes de Enfermería</p>
+    </footer>
+</body>
+</html>
